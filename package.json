@@ -10,7 +10,6 @@
     "production": "NODE_ENV=production gulp make",
     "deploy": "NODE_ENV=production gulp deploy",
     "test": "jasmine --config=./test/jasmine.json"
-
   },
   "repository": {
     "type": "git",
@@ -30,12 +29,16 @@
     "gulp-clip-empty-files": "^0.1.2",
     "gulp-pug": "^3.3.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "^2.1.0",
     "gulp-util": "^3.0.8",
     "jasmine": "^3.3.1",
     "mustache": "^2.3.0",
+    "node-sass": "^8.0.0",
     "vinyl-named": "^1.1.0",
     "webpack-stream": "^3.2.0"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
   }
 }
